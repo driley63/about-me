@@ -1,3 +1,3 @@
 export const parents = {
-    aws: { name: 'Amazon Web Services (AWS)' },
+	aws: { name: 'Amazon Web Services (AWS)' },
 }
