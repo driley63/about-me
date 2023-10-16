@@ -1,4 +1,4 @@
-import { Category_Keys, Parent_Keys } from './lookups'
+import { Category_Keys, Parent_Keys } from './lookups';
 
 export const skills = {
 	/* DevOps */
@@ -50,4 +50,4 @@ export const skills = {
 	'tailwind': { category: Category_Keys.Development, parent: null, name: 'Tailwind CSS' },
 	'git': { category: Category_Keys.Development, parent: null, name: 'Git' },
 	'yarn': { category: Category_Keys.Development, parent: null, name: 'Yarn' },
-}
+};

@@ -1,4 +1,4 @@
-import { Skill_Keys } from '../experience/lookups'
+import { Skill_Keys } from '../experience/lookups';
 
 export const experiences = [
 	{
@@ -110,4 +110,4 @@ export const experiences = [
 	//     ],
 	//     accomplishments: []
 	// }
-]
+];

@@ -5,11 +5,11 @@ export const Category_Keys = {
 	QA: 'qa',
 	Process_Tools: 'processtools',
 	Database: 'database'
-}
+};
 
 export const Parent_Keys = {
 	AWS: 'aws'
-}
+};
 
 export const Skill_Keys = {
 	DevOps: {
@@ -66,4 +66,4 @@ export const Skill_Keys = {
 		Angular: 'Angular',
 		CSS: 'css'
 	}
-}
+};

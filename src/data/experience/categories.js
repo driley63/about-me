@@ -5,4 +5,4 @@ export const categories = {
 	processtools: { name: 'Process/Tools'},
 	documentation: { name: 'Documentation' },
 	qa: { name: 'QA' },
-}
+};
