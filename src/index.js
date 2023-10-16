@@ -1,21 +1,20 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './styles/pages/index.scss'
+import ReactDOM from 'react-dom/client';
+import './styles/pages/index.scss';
 import {
 	BrowserRouter,
 	Routes,
 	Route,
-} from 'react-router-dom'
-import About from './routes/about'
-import Experience from './routes/experience'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Interests from './routes/interests/interests'
-import InterestDetails from './routes/interests/interest-details'
-import { Navbar, Nav, Stack } from 'react-bootstrap'
-import { Outlet, Link } from 'react-router-dom'
+} from 'react-router-dom';
+import About from './routes/about';
+import Experience from './routes/experience';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Interests from './routes/interests/interests';
+import InterestDetails from './routes/interests/interest-details';
+import { Navbar, Nav, Stack } from 'react-bootstrap';
+import { Outlet, Link } from 'react-router-dom';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'));
 const NavbarLayout = () => (
 	<Stack className="col-md-5 mx-auto navigation container-fluid card m-0 p-0">
 		<Navbar sticky='top' className="d-flex justify-content-center nav-bar card m-0 p-0">
@@ -31,7 +30,7 @@ const NavbarLayout = () => (
 			<Outlet />
 		</div>
 	</Stack>
-)
+);
 
 root.render(
 	<BrowserRouter>
@@ -47,6 +46,6 @@ root.render(
 		</Routes>
 	</BrowserRouter>
   
-)
+);
 
 

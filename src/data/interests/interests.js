@@ -49,4 +49,4 @@ export const interests = [
 		}],
 		description:'Camp PARC'
 	}
-]
+];
