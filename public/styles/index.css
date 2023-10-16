@@ -1,0 +1,99 @@
+.company-name {
+  color: rgb(40, 40, 40);
+}
+
+.experience-header {
+  background-color: rgb(40, 40, 60);
+}
+
+#root {
+  background-color: rgb(40, 40, 40);
+  color: rgb(215, 215, 215);
+}
+
+.content-outlet {
+  min-height: 85vh;
+  background-color: rgb(40, 40, 60);
+}
+
+.content-outlet:before {
+  display: block;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  transform: translateX(-50%);
+  background: linear-gradient(currentColor, transparent);
+  pointer-events: none;
+}
+
+.nav-bar {
+  background-color: rgb(238, 227, 171);
+  color: rgb(215, 215, 215);
+}
+
+.hoverable:hover {
+  margin: -1% !important;
+  padding: 1% !important;
+}
+
+.card-title {
+  background-color: rgb(40, 40, 60);
+  padding: 0.4em;
+}
+
+.card-body {
+  background-color: rgb(238, 227, 171);
+}
+
+.watermark {
+  position: absolute;
+  left: 0em;
+  width: 100%;
+  height: 10px !important;
+  z-index: 0;
+}
+
+.nav-bar {
+  height: 15vh;
+}
+
+text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.nav-link > a {
+  color: black;
+}
+
+/*
+Columbia Blue
+A7C6DA
+167, 198, 218
+
+
+Rosy Brown
+BD897E
+189, 137, 126
+
+Jet
+2F2F2F
+47, 47, 47
+
+Vanilla
+238, 227, 171
+EEE3AB
+
+Butterscotch
+D8973C
+216, 151, 60
+*/
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,25 @@
+@use "../global/colors";
+@use "../global/core";
+
+.interest-title {
+  background-color: transparent;
+  opacity: 1;
+  color: orange;
+  cursor: pointer;
+}
+
+.interest {
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-x: -1;
+  background-position-y: -1;
+  background-position: center;
+  opacity: 0.5;
+  height: 100px;
+  width: 45%;
+  cursor: pointer;
+}
+
+.interest:hover {
+  opacity: 1;
+}

@@ -1,0 +1,10 @@
+@use "../global/colors";
+@use "../global/core";
+
+.company-name {
+  color: colors.$primary-color;
+}
+
+.experience-header {
+  background-color: colors.$secondary_color;
+}

@@ -1,0 +1,10 @@
+@use "colors";
+
+.card-title {
+  background-color: colors.$white;
+  padding: 0.4em;
+}
+
+.card-body {
+  background-color: colors.$white;
+}
